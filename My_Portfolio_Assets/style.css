@@ -1,4 +1,4 @@
-.header {
+/* .header {
     display: inline-block;
     padding: 20px;
 }
@@ -23,3 +23,16 @@ head h1 {
     width: 100%; 
     background-color: rgb(75, 73, 143);    
 }
+
+body h3 {
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+/* body.About_Me {
+    display: inline-block;    
+} */
+
+/* #About_Me {
+
+} */ */
