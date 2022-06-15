@@ -1,6 +1,6 @@
 header {
     padding: 4vw;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 10px;
     background-color: rgb(30, 28, 141);
 }
@@ -40,11 +40,12 @@ body h2 {
     padding-bottom: 10px;
     font-size: 20px;
     color: aliceblue;    
-    background-color: blueviolet;
+    background-color: rgb(48, 48, 131);
     text-decoration: none;
 }
 
 .Section {
+    display: flex;
     padding: 20px;
     display: inline-flex;
 }
@@ -59,16 +60,19 @@ body h2 {
     text-align: right;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    /* flex-grow:1; */
 }
 
 .Content {
     margin-right: 5vw;
     border-left: 10px solid blue;
-    font-size:16px;
+    font-size: 16px;
     color: rgb(0, 0, 0);
     padding: 20px;
     background-color: rgb(245, 245, 245,.7);
     text-align: left;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    /* flex-grow: 5; */
+    line-height: 1.4;
 }
