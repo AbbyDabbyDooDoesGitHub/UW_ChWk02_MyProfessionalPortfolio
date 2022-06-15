@@ -60,7 +60,6 @@ body h2 {
     text-align: right;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    /* flex-grow:1; */
 }
 
 .Content {
@@ -73,6 +72,16 @@ body h2 {
     text-align: left;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    /* flex-grow: 5; */
     line-height: 1.4;
+}
+
+.Content img {
+    border-radius: 25px;
+    width: 400px;
+    height: 300px;
+}
+
+.Content #Featured_Work {
+    width: 800px;
+    height: 300px;
 }
