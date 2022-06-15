@@ -2,7 +2,7 @@ header {
     padding: 4vw;
     padding-top: 50px;
     padding-bottom: 10px;
-    background-color: rgb(30, 28, 141);
+    background-color: rgb(32, 22, 56);
 }
 
 header h1,nav,p,li,ul,a {
@@ -10,14 +10,12 @@ header h1,nav,p,li,ul,a {
 }
 
 header h1 {
-    /* margin-left: 2.5vw; */
     font-size: 35px;
     color: aliceblue;
 }
 
 .head_nav {
-    /* margin-right: 2.5vw; */
-    padding-top: 2.5px;
+    /* padding-top: 2.5px; */
     float: right;
     font-size: 20px;
     color: aliceblue;
@@ -30,7 +28,8 @@ header p {
 }
 
 body {
-    background-color: rgb(39, 39, 39);
+    /* background-color: rgb(39, 39, 39); */
+    background-color: rgb(163, 158, 162);
 }
 
 body h2 {
@@ -38,9 +37,9 @@ body h2 {
     padding-left: 4vw;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 20px;
-    color: aliceblue;    
-    background-color: rgb(48, 48, 131);
+    font-size: 22px;
+    color: rgb(240, 248, 255,.6);    
+    background-color: rgb(32, 22, 56, 0.6);
     text-decoration: none;
 }
 
@@ -53,9 +52,9 @@ body h2 {
 .Content_Heading {
     margin-left: 5vw;
     font-size:20px;
-    color: blueviolet;
+    color: rgb(39, 39, 39);
     padding: 20px;
-    width:150px;
+    width:200px;
     background-color: rgb(245, 245, 245,.9);
     text-align: right;
     border-top-left-radius: 25px;
@@ -64,7 +63,7 @@ body h2 {
 
 .Content {
     margin-right: 5vw;
-    border-left: 10px solid blue;
+    border-left: 10px solid rgb(55, 38, 95);
     font-size: 16px;
     color: rgb(0, 0, 0);
     padding: 20px;
