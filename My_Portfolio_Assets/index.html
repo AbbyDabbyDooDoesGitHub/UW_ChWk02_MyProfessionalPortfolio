@@ -12,6 +12,7 @@
 
 <body>
 
+    <!-- HEADER WITH NAV WITHIN PAGE -->
     <header>
         <h1>Abigail Douglas</h1>
         <nav class="head_nav">
@@ -28,69 +29,103 @@
         </nav>
     </header> 
 
-    <div>
-        <h2>Professional Programming Portfolio</h2>
-    </div>
+    <!-- SUBHEADER -->
+    <subheader>
+        <div>
+            <h2>Professional Programming Portfolio</h2>
+        </div>
+    </subheader>
 
     <br>
 
-    <div id="About_Me" class="Section">
-        <div class="Content_Heading">
-            <h3>About Me</h3>
-        </div>
+    <!-- MAIN CONTENT 'CARDS' -->
+    <main>
 
-        <div class="Content">
-            <p>
-                Inventory & Systems Manager working to improve scalable systems for Wallaroo's, a rapidly expanding furniture business. Skilled in the Microsoft Office Suite, inventory management, and staff training. Always interested in trying new things and expanding horizons. Firmly believe that anything can be accomplished with the right attitude, planning, and commitment.
-            </p>
-        </div>
-
-    </div>
+        <!-- ABOUT ME SECTION -->
+        <div id="About_Me" class="section">
+            <div class="content_heading">
+                <h3>About Me</h3>
+            </div>
     
-    <br>
-
-    <div id="Work" class="Section">
-        <div class="Content_Heading">
-            <h3>Work</h3>
-        </div>
-
-        <div class="Content">
-
-            <img id="Featured_Work" src="images/Purple_Geometric_Background.jpg" alt="Light Purple Rounded Swirl">
-
-            <img src="images/Light_Purple_Rounded_Blob_Swirl.jpg" alt="Light Purple Rounded Swirl">
-
-            <img src="images/Light_Pink_Tan_Unfocused_Lights.jpg" alt="Light Pink Unfocused Lights">
-
-            <img src="images/Grey_Abstract_Building.jpg" alt="Grey Abstract Building">
-
-            <img src="images/Purple_Blue_Lights_Letters.jpg" alt="Abstract Purple and Blue Lights and Letters">
-
-        </div>
-
-    </div>
+            <div class="content">
+                <p>
+                    Inventory & Systems Manager working to improve scalable systems for Wallaroo's, a rapidly expanding furniture business. Skilled in the Microsoft Office Suite, inventory management, and staff training. Always interested in trying new things and expanding horizons. Firmly believe that anything can be accomplished with the right attitude, planning, and commitment.
+                </p>
+            </div>
     
-    <br>
+        </div>
+        
+        <br>
 
-    <div id="Contact_Me" class="Section">
-        <div class="Content_Heading">
-            <h3>Contact Me</h3>
+        <!-- WORK SECTION (FOR PAST PROJECTS ETC) -->
+        <div id="Work" class="section">
+            <div class="content_heading">
+                <h3>Work</h3>
+            </div>
+    
+            <div class="content">
+    
+                <content_image_cards>
+
+                    <!-- FEATURED SIZE -->
+                    <work_ex_card class="featured_work">
+                        <img class="featured_work content_images" src="images/Purple_Geometric_Background.jpg" alt="Light Purple Rounded Swirl">
+                        <h4>Featured Work Placeholder</h4>
+                    </work_ex_card>
+
+                    <!-- NORMAL SIZE -->
+                    <work_ex_card>
+                        <img class="content_images" src="images/Light_Purple_Rounded_Blob_Swirl.jpg" alt="Light Purple Rounded Swirl">
+                        <h4>Placeholder</h4>
+                    </work_ex_card>                
+    
+                    <work_ex_card>
+                        <img class="content_images" src="images/Light_Pink_Tan_Unfocused_Lights.jpg" alt="Light Pink Unfocused Lights">
+                        <h4>Placeholder</h4>
+                    </work_ex_card>    
+                    
+                    <work_ex_card>
+                        <img class="content_images" src="images/Grey_Abstract_Building.jpg" alt="Grey Abstract Building">
+                        <h4>Placeholder</h4>
+                    </work_ex_card>    
+
+                    <work_ex_card>
+                        <img class="content_images" src="images/Purple_Blue_Lights_Letters.jpg" alt="Abstract Purple and Blue Lights and Letters">
+                        <h4>Placeholder</h4>
+                    </work_ex_card>    
+    
+                </content_image_cards>
+    
+            </div>
+    
+        </div>
+        
+        <br>
+
+        <!-- CONTACT ME SECTION -->
+        <div id="Contact_Me" class="section">
+            <div class="content_heading">
+                <h3>Contact Me</h3>
+            </div>
+    
+            <div class="content">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/abigailcdouglas/">LinkedIn</a></li>
+                    <p>|</p>
+                    <li><a href="https://github.com/AbbyDabbyDooDoesGitHub">GitHub</a></li>
+                    <p>|</p>
+                    <li><a href="mailto: ItsAbigailDouglas@gmail.com?subject = Portfolio Contact">Email</a></li>
+                </ul>
+            </div>
+    
         </div>
 
-        <div class="Content">
-            <ul>
-                <li><a href="https://www.linkedin.com/in/abigailcdouglas/">LinkedIn</a></li>
-                <p>|</p>
-                <li><a href="https://github.com/AbbyDabbyDooDoesGitHub">GitHub</a></li>
-                <p>|</p>
-                <li><a href="mailto: ItsAbigailDouglas@gmail.com?subject = Portfolio Contact">Email</a></li>
-            </ul>
-        </div>
-
-    </div>
+    </main>
 
     <br>
     <br>
+
+    <!-- TBD IF I WANT A FOOTER -->
 
 </body>
 
