@@ -134,15 +134,17 @@ content_image_cards {
 work_ex_card {
     flex: 1 0 0;
     margin-bottom: 0%;
+    position: relative;
 
     text-align: center;
 }
 
 /* the title that goes with the work card */
 work_ex_card h4 {
-    position: relative;
+    position:absolute;
     width: 45%;
-    top: -41%;
+    top: 50%;
+    left: 0;
     justify-content: center;
 
     border-top-right-radius: 12.5px;
