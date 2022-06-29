@@ -158,15 +158,6 @@ work_ex_card h4 {
     background-color: rgb(163, 158, 162,.75);
 }
 
-/* format the icons for github / linked in / email */
-.contact_icons {
-    height:60px;
-    font-size: 60px;
-    padding-left: 15px;
-    padding-right: 15px;
-
-}
-
 #about_me_content {
     display: block;
 
@@ -184,6 +175,20 @@ work_ex_card h4 {
     overflow: hidden;
 
     } 
+
+#Contact_Me_Content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* format the icons for github / linked in / email */
+.contact_icons {
+    height:60px;
+    font-size: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
 
 
 
