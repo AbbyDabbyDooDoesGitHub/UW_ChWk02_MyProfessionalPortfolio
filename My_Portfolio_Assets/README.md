@@ -1,6 +1,23 @@
 # 02 Advanced CSS: Portfolio
+## Overview
+```
+Create a Web Portfolio that can be added to as Projects are Completed
+Ensure Webpage is Functioning as Intended (ie: all links work, etc)
+Create an End Product that works on Desktop and Mobile
+Apply Flexbox, Media Queries, and CSS Variables Skills
 
-## Your Task
+```
+Link to Web App: TBD
+
+App Preview:
+![My Portfolio Screenshot](./images/MyPortfolioScreenShot.png "My Portfolio Screenshot")
+
+## Notes
+
+I started with bare-bones html content. After establishing the elements I wanted on the page, the majority of the time was spent formatting with flexbox and adding UI perks (like mobile compatability and opacity changes when a link is hovered over). This was challenging, but rewarding to see everything comne together on my first web-app from scratch. All pictures and icons used are free-to-use. :)
+
+
+<!-- ## Your Task
 
 Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
 
@@ -10,7 +27,7 @@ With these points in mind, in this Challenge you’ll set yourself up for future
 
 **Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
+Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format.  -->
 
 
 ## User Story
@@ -43,7 +60,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 
-## Mock-Up
+<!-- ## Mock-Up
 
 The following animation shows the web application's appearance and functionality:
 
@@ -103,4 +120,4 @@ You are required to submit BOTH of the following for review:
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 - - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved. -->

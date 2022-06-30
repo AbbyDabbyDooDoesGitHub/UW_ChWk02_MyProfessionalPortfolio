@@ -288,10 +288,6 @@ work_ex_card h4 {
 
     }
 
-    work_ex_card h4 {
-        width: 80%;
-    }
-
     /* featured work card */
     #featured_mobile {
         display: flex;
@@ -302,6 +298,15 @@ work_ex_card h4 {
     #featured_standard {
         display: none;
     }
+
+    work_ex_card_feat h4 {
+        width: 70%;
+    }
+
+    work_ex_card h4 {
+        width: 70%;
+    }
+
 
 }
 
