@@ -10,7 +10,7 @@ Apply Flexbox, Media Queries, and CSS Variables Skills
 Link to Web App: https://abbydabbydoodoesgithub.github.io/UW_ChWk02_MyProfessionalPortfolio/
 
 App Preview:
-![My Portfolio Screenshot](./My_Portfolio_Assets/Images/MyPortfolioScreenShot.png "My Portfolio Screenshot")
+![My Portfolio Screenshot](./Images/MyPortfolioScreenShot.png "My Portfolio Screenshot")
 
 ## Notes
 
