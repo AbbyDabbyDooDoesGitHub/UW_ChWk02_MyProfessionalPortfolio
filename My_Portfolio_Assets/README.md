@@ -10,7 +10,7 @@ Apply Flexbox, Media Queries, and CSS Variables Skills
 Link to Web App: TBD
 
 App Preview:
-![My Portfolio Screenshot](./My_Portfolio_Assets/images/MyPortfolioScreenShot.png "My Portfolio Screenshot")
+![My Portfolio Screenshot](./Images/MyPortfolioScreenShot.png "My Portfolio Screenshot")
 
 ## Notes
 
