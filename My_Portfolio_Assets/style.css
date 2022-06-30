@@ -1,3 +1,4 @@
+/* HEADER */
 header {
     padding: 4vw;
     padding-top: 50px;
@@ -6,6 +7,15 @@ header {
     background-color: rgb(32, 22, 56);
 }
 
+/* hide breaks (will use for mobile */
+.header_mobile_br {
+    display: none;
+}
+#about_me_mobile_br {
+    display: none;
+}
+
+/* FOOTER */
 footer {
     padding: 4vw;
     padding-top: 15px;
@@ -239,5 +249,104 @@ work_ex_card h4 {
     font-size: 60px;
     padding-left: 15px;
     padding-right: 15px;
+
+}
+
+#featured_mobile {
+    display: none;
+}
+
+/* Screen Sizing Formats */
+
+@media only screen and (max-width: 955px) {
+    header {
+        padding-bottom: 30px;
+    }
+
+
+    /* unhide header break */
+    .header_mobile_br {
+        display: block;
+    }
+
+    /* moves header nav links to right side and makes font smaller */
+    .head_nav {
+        float: left;
+        font-size: 18px;
+
+    }
+
+    /* adds padding on either side of the "|" in the heading nav links */
+    header p {
+        padding-right: 9px;
+        padding-left: 9px;
+    }
+
+    /* subtitle */
+    body h2 {
+        font-size: 18px;
+
+    }
+
+    work_ex_card h4 {
+        width: 80%;
+    }
+
+    /* featured work card */
+    #featured_mobile {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* featured work card */
+    #featured_standard {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 670px) {
+
+    content #about_me_content {
+        display: flex;
+    
+    }
+    
+    #intro_image {
+        max-width: 250px;
+        margin-left: 10%;
+
+
+
+        float: none;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+
+    } 
+
+    work_ex_card_feat h4 {
+        bottom: 30px;
+        width: 80%;
+    }
+
+    work_ex_card h4 {
+        bottom: 30px;
+        width: 80%;
+    }
+
+    #about_me_mobile_br {
+        display: block;
+    }
+
+
+}
+
+@media only screen and (max-width: 615px) {
+    
+    #intro_image {
+        margin-left: 8%;
+
+    } 
 
 }
